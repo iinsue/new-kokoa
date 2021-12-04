@@ -29,4 +29,21 @@
             [Fontawesonme](https://fontawesome.com)
             [Heroicons](https://heroicons.dev)
 
+## chapter4 Font
+    Font 구하기
+        [구글폰트](https://fonts.google.com/)
+    Font 적용하기
+        - css 파일에 @import로 추가하는 방식으로 적용시키는 게 좋다.
+
+## chapter5 CSS
+    CSS 기술
+        > 몇몇 CSS 작업은 컨테이너를 특정위치에 놓기위해 쓰여지는데
+        > 좀 이상해도 잘 적용되므로 서로 공유하여 사용하는 설정이 있음.
+        > ex) status-bar
+    
+    reset CSS
+        - 브라우저가 알아서 기본으로 html에 적용시키는 스타일이 있는데
+          그 것을 제거하기 위한 방법.(대부분이 margin:0, padding:0, border:0,...등을 가진 css파일)
+        - 구글에 검색해서 복사 붙여넣고 별도의 파일로 구성해서 @import로 사용하는게 좋다.
+
 © 2017-2021 Nomad Coders. All rights reserved.
