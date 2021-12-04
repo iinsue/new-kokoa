@@ -21,12 +21,12 @@
         - BEM은 CSS를 작성할 때 작성하려는게 id였는지 class였는지 헷갈릴 때가 많은데
           이런 문제점을 인식해 **모든 부분을 class로** 나타내려고 노력하면서 만들어 졌다.
 
-## chapter3 FontAwesome
+## chapter3 Get Icons
     icon 구하기
         1. 직접 구하기 : 직접이미지를 만들고 추출하거나 svg파일을 이용한다.
             - svg: 픽셀이 없는 이미지 파일 형식
         2. 가져오기
-            - [Fontawesonme](https://fontawesome.com)
-            - [Heroicons](https://heroicons.dev)
+            [Fontawesonme](https://fontawesome.com)
+            [Heroicons](https://heroicons.dev)
 
 © 2017-2021 Nomad Coders. All rights reserved.
