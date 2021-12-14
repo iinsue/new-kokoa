@@ -4,6 +4,7 @@
 
 /*Components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /*Screen*/
 @import "screens/login.css";
@@ -11,3 +12,12 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/*
+import 파일 순서를 지키는게 중요하다.
+첫줄에는 font, 그 다음은 모든 sytle을 reset,
+그리고 나서 variables.css파일을 import했는데 만약
+variables.css를 compoenents 아래로 옮겼다면
+variables을 사용할 수없다.
+왜냐하면 아직 import 된게 아니기 때문이다.
+*/
