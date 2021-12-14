@@ -59,11 +59,22 @@
     - POST는 백엔드 서버에 정보를 전송하는 방식이라 서버가 없이는 사용할 수 없다.
     - GET 방식은 URL에 포함되어도 상관없는 정보들을 URL에 담아 보내는 것이다.
 
-## chapter10 Navigation Bar
+## chapter10 Border Box
 - padding 때문에 icon이 페이지 밖으로 나가는 문제가 생길 수 있다.
   > .nav {box-sizing: border-box;} 로 해결하면된다.
 
-> VScode 단축키 - 한문장만 쓰면 VScode가 기본적으로 유효한HTML로 만드는것
-> nav>ul>li*4>a
-> ... 의 이름은 ellipsis
-© 2017-2021 Nomad Coders. All rights reserved.
+- CSS box 모델의 기본값
+  > box값에 padding을 부여하면 CSS는 박스크기에서 padding을 잡지않고   
+  > 박스 공간을 늘린 후에 padding을 적용한다. 따라서 box크기 + padding 이된다.   
+  > box-sizing: border-box;는 CSS에게 box사이즈를 늘리지 말라는 설정이다.
+
+
+> position: absolute는 부모 tag에 position: relative 와 함께 쓰인다.   
+> VScode에서 한번에 tag 생성하기 ex) nav>ul>li*4>a   
+
+***
++a
+---
+**... 의 이름은 ellipsis**
+
+_© 2017-2021 Nomad Coders. All rights reserved._
