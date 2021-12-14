@@ -15,7 +15,7 @@
 - [참고 사이트](https://nykim.work/15)
     
 - BEM +a
-    ex) .btn__price { } : element
+    ex) .btn__price { } : element   
     ex) .btn--orange { } : modifier
 - 클래스를 분리해서 사용하면 코드를 보다 쉽게 읽을 수 있다.
 - BEM은 CSS를 작성할 때 작성하려는게 id였는지 class였는지 헷갈릴 때가 많은데 이런 문제점을 인식해 **모든 부분을 class로** 나타내려고 노력하면서 만들어 졌다.
@@ -75,6 +75,7 @@
 ***
 +a
 ---
-**... 의 이름은 ellipsis**
+**... 의 이름은 ellipsis**    
+**톱니바퀴 아이콘 ⚙ 은 cog**
 
 _© 2017-2021 Nomad Coders. All rights reserved._
