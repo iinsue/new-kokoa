@@ -14,7 +14,7 @@
 - Googling BEM CSS
 - [참고 사이트](https://nykim.work/15)
     
-- BEM +a
+- BEM +a   
     ex) .btn__price { } : element   
     ex) .btn--orange { } : modifier
 - 클래스를 분리해서 사용하면 코드를 보다 쉽게 읽을 수 있다.
@@ -36,8 +36,8 @@
 
 ## chapter5 CSS
 - CSS 기술
-    > 몇몇 CSS 작업은 컨테이너를 특정위치에 놓기위해 쓰여지는데
-    > 좀 이상해도 잘 적용되므로 서로 공유하여 사용하는 설정이 있음.
+    > 몇몇 CSS 작업은 컨테이너를 특정위치에 놓기위해 쓰여지는데   
+    > 좀 이상해도 잘 적용되므로 서로 공유하여 사용하는 설정이 있음.   
     > ex) status-bar
     
 - reset CSS
@@ -47,7 +47,7 @@
     - 구글에 검색해서 복사 붙여넣고 별도의 파일로 구성해서 @import로 사용하는게 좋다.
 
 ## chapter9 Form tag
-> #login-form ... 처럼 id로 표현했지만
+> #login-form ... 처럼 id로 표현했지만   
 > .login-from__ ... 처럼 BEM으로 표현하면 읽기 쉽다.
     
 **Form에서 중요한 속성 2가지**
@@ -77,5 +77,6 @@
 ---
 **... 의 이름은 ellipsis**    
 **톱니바퀴 아이콘 ⚙ 은 cog**
+**>,< 의 이름은 chevron**
 
 _© 2017-2021 Nomad Coders. All rights reserved._
