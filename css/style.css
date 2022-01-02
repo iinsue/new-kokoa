@@ -17,6 +17,10 @@ body {
   color: #2e363e;
 }
 
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
 /*
 import 파일 순서를 지키는게 중요하다.
 첫줄에는 font, 그 다음은 모든 sytle을 reset,
