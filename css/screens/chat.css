@@ -1,3 +1,35 @@
 #chat-screen {
   background-color: #abc1d1;
+  height: 1000vh;
+}
+
+/*
+z-index 는 기본적으로 div가 있는 위치가
+맨 앞에서부터 몇 번째인지를 나타낸다.
+즉, layer의 순서가 몇 번째 인지를 나타내는 것.
+display 작업을 하거나 position이 고정되어 있으면
+layer를 갖게 된다.
+z-index는 절대적인위치(absolute position)이나
+고정된 위치(fixed position)에 대해서 설정할 수 있다.
+*/
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #abc1d1;
+  box-sizing: border-box;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 150px;
 }

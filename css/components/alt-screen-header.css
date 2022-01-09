@@ -11,11 +11,30 @@
   font-size: 30px;
   font-weight: 600;
 }
+/* 
+일종의 치트키로 absolute를 이용해서 정중앙에 오게 하는 것은
+CSS에서 어색해 보이므로 그 대신에 모든 열이 같은 너비를 가지게 했다.
+가운데 열은 중앙정렬했고 마지막 열은 display:flex, justify-content:flex-end
+로 했다.
+*/
+.alt-header__column {
+  width: 33%;
+}
 
 .alt-header__column:first-child {
   margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
